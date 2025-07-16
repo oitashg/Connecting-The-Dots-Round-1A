@@ -1,2 +1,2 @@
 # Adobe India Hackathon 2025
-## Round 1A
+## Round 1A solution
