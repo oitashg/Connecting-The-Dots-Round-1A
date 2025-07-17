@@ -1,0 +1,450 @@
+{
+  "title": "DEPARTMENT OF INFORMATION TECHNOLOGY",
+  "outline": [
+    {
+      "level": "H2",
+      "text": "DEPARTMENT OF INFORMATION TECHNOLOGY",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "UNDERGRADUATE ENGINEERING DEGREE PROGRAMME",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Spanning Tree Algorithms",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Vector Algebra:",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Ordinary Differential Equation:",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Transportation Problem:",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Transportation Problem.",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Assignment Problem:",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Problem.",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Two-phase Locking",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "Flags",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "Template Library in C++",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "Registers, Counters.",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Standa rd Template Library(STL)",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "Probability:",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "Random Variables:",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "Special Distributions :",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "Statistics:",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "Measures of Central Tendency:",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "Estimation of Parameters :",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "Applied Statistics :",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "Operation Research:",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "Game Theory:",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "Inventory Control:",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "Queuing Theory:",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "Project Management:",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "Graph Theory:",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Matrix",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Cobminatorics",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "Model, Switching, TCP/IP Model",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "Path Forwarding,",
+      "page": 10
+    },
+    {
+      "level": "H2",
+      "text": "Algorithm, Token Bucket Algorithm.",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "Generic Programming.",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "Introduction to Cloud Computing",
+      "page": 12
+    },
+    {
+      "level": "H1",
+      "text": "Virtualization Technologies",
+      "page": 12
+    },
+    {
+      "level": "H1",
+      "text": "IT/PE/B/T/311A  Cloud Computing",
+      "page": 12
+    },
+    {
+      "level": "H1",
+      "text": "IT/PE/B/T/311C  Artificial Intelligence",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "IT/PE/B/S/311A  Cloud Computing Lab",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "IT/PE/B/S/311C  Artificial Intelligence Lab",
+      "page": 12
+    },
+    {
+      "level": "H2",
+      "text": "Management of Cloud Resources",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "Cloud Security",
+      "page": 13
+    },
+    {
+      "level": "H1",
+      "text": "NEMO, DMM.",
+      "page": 14
+    },
+    {
+      "level": "H1",
+      "text": "Elective -I Lab",
+      "page": 16
+    },
+    {
+      "level": "H2",
+      "text": "Assignments on Shell Scripting;",
+      "page": 17
+    },
+    {
+      "level": "H1",
+      "text": "IT/PE/H/T/325A  Soft Computing",
+      "page": 18
+    },
+    {
+      "level": "H1",
+      "text": "IT/PE/H/T/325C  Mobile Applications",
+      "page": 18
+    },
+    {
+      "level": "H2",
+      "text": "IT/PE/H/S/322A  Soft Computing Lab",
+      "page": 18
+    },
+    {
+      "level": "H1",
+      "text": "Development Lab",
+      "page": 18
+    },
+    {
+      "level": "H1",
+      "text": "Diffusion, Cryptanalysis.",
+      "page": 19
+    },
+    {
+      "level": "H1",
+      "text": "Encryption.",
+      "page": 19
+    },
+    {
+      "level": "H1",
+      "text": "Security Issues",
+      "page": 19
+    },
+    {
+      "level": "H1",
+      "text": "Updatable ResultSet, ResultSetMetadata",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "Introduction to Big Data",
+      "page": 21
+    },
+    {
+      "level": "H2",
+      "text": "V’s of Big Data.",
+      "page": 21
+    },
+    {
+      "level": "H1",
+      "text": "Introduction",
+      "page": 22
+    },
+    {
+      "level": "H1",
+      "text": "Handler",
+      "page": 22
+    },
+    {
+      "level": "H1",
+      "text": "XML, Using WebView",
+      "page": 22
+    },
+    {
+      "level": "H1",
+      "text": "J2EE",
+      "page": 23
+    },
+    {
+      "level": "H1",
+      "text": "Optimization).",
+      "page": 23
+    },
+    {
+      "level": "H1",
+      "text": "Data Mining",
+      "page": 24
+    },
+    {
+      "level": "H1",
+      "text": "Networks",
+      "page": 24
+    },
+    {
+      "level": "H1",
+      "text": "IT/PE/B/T/412C  Bio-Informatics",
+      "page": 24
+    },
+    {
+      "level": "H1",
+      "text": "Dynamic Programming",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "Module -1",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "Module -2",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "Module -3",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "Module -4",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "Module -5",
+      "page": 25
+    },
+    {
+      "level": "H1",
+      "text": "Module -6",
+      "page": 26
+    },
+    {
+      "level": "H1",
+      "text": "Sequence Alignments.",
+      "page": 26
+    },
+    {
+      "level": "H1",
+      "text": "S/MIME",
+      "page": 27
+    },
+    {
+      "level": "H1",
+      "text": "Limitations",
+      "page": 28
+    },
+    {
+      "level": "H1",
+      "text": "Wireless Authentication",
+      "page": 28
+    },
+    {
+      "level": "H1",
+      "text": "Detection System",
+      "page": 28
+    },
+    {
+      "level": "H1",
+      "text": "Applications",
+      "page": 29
+    },
+    {
+      "level": "H1",
+      "text": "Security",
+      "page": 29
+    },
+    {
+      "level": "H1",
+      "text": "Filtering.",
+      "page": 30
+    },
+    {
+      "level": "H1",
+      "text": "Necessity of Inventory.",
+      "page": 30
+    },
+    {
+      "level": "H1",
+      "text": "Decision Trees.",
+      "page": 31
+    },
+    {
+      "level": "H1",
+      "text": "Basics of NLP:",
+      "page": 31
+    },
+    {
+      "level": "H1",
+      "text": "Similarity.",
+      "page": 32
+    },
+    {
+      "level": "H1",
+      "text": "Text Mining",
+      "page": 32
+    },
+    {
+      "level": "H1",
+      "text": "Entailment.",
+      "page": 32
+    },
+    {
+      "level": "H1",
+      "text": "Text Summarization",
+      "page": 32
+    },
+    {
+      "level": "H1",
+      "text": "Performance Measure",
+      "page": 32
+    },
+    {
+      "level": "H1",
+      "text": "Mobile Network.",
+      "page": 32
+    },
+    {
+      "level": "H1",
+      "text": "Warfare.",
+      "page": 33
+    },
+    {
+      "level": "H1",
+      "text": "Algebra",
+      "page": 34
+    },
+    {
+      "level": "H1",
+      "text": "OOP.",
+      "page": 34
+    }
+  ]
+}
