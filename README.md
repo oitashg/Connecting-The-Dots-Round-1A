@@ -47,7 +47,7 @@ cd <your-repo>
 
 ---
 
-## 🚀 Dockerized Execution (As per instruction given)
+##  Dockerized Execution (As per instruction given)
 
 ### 1. Build Docker Image
 
@@ -104,20 +104,36 @@ Each processed PDF generates a `.json` file matching the format:
 
 The headings are extracted, grouped (not single words), and detected based on font size, visual layout, and optionally confidence.
 
+
+## Multilingual Support
+This solution provides basic multilingual support through:
+
+-- Unicode normalization using Python’s unicodedata module
+This ensures consistent character handling across scripts (e.g., Latin, Devanagari, Cyrillic, etc.)
+
+-- Language-agnostic text extraction using PyMuPDF
+PyMuPDF can extract text from PDFs in a wide range of languages and character sets, including:
+
+English
+Hindi
+Chinese
+Arabic
+Tamil
+and many more....
+
 ---
 
 ##  Components & Their Roles
 
-* **run.py**: Orchestrates folder-wise processing, one PDF at a time.
-* **extract.py**: Handles OCR, image conversion, heading merging, and JSON export.
-* **layoutlm\_pipeline.py**: Loads the pre-trained LayoutLMv3 model and infers heading candidates using text, bounding boxes, and layout context.
+* **main.py**: Orchestrates folder-wise processing, one PDF at a time.
+* **pdf_processor.py**: Handles OCR, image conversion, heading merging, and JSON export.
 
 ---
 
 
 ---
 
-## ✅ Validation Checklist
+##  Validation Checklist
 
 * [x] PDF files read from `/app/input`
 * [x] JSON written to `/app/output` per PDF
@@ -133,12 +149,24 @@ The headings are extracted, grouped (not single words), and detected based on fo
 
 ---
 
-## 📝 Notes
+##  Notes
 
 * The model and logic are tuned for document-style PDFs with distinguishable headings.
 * For scanned or low-quality PDFs, performance may vary depending on OCR accuracy.
 * The heading merging logic groups adjacent words that visually form a heading block.
 
 ---
+
+## ⚠️ Disclaimer
+During development, we experimented with a machine learning–based heading extraction approach using state-of-the-art models like LayoutLMv3, which provided significantly more accurate and context-aware results for complex PDFs.
+
+However, due to the strict constraints imposed by the challenge — particularly:
+
+🚫 Execution time (≤ 10 seconds for 50-page PDFs)
+🚫 Model size limit (≤ 200MB)
+🚫 No internet access or GPU usage
+🚫 CPU-only inference on AMD64 architecture
+
+we opted for a lightweight, rule-based alternative using PyMuPDF + regex heuristics, which meets all the challenge requirements.
 
 
