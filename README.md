@@ -106,23 +106,24 @@ Each processed PDF generates a `.json` file matching the format:
 The headings are extracted, grouped (not single words), and detected based on font size, visual layout, and optionally confidence.
 
 
-## Multilingual Support
+
+## 🌐 Multilingual Support
+
 This solution provides basic multilingual support through:
 
--- Unicode normalization using Python’s unicodedata module
-This ensures consistent character handling across scripts (e.g., Latin, Devanagari, Cyrillic, etc.)
+- **Unicode normalization using Python’s `unicodedata` module**  
+  Ensures consistent character handling across scripts (e.g., Latin, Devanagari, Cyrillic, etc.)
 
--- Language-agnostic text extraction using PyMuPDF
-PyMuPDF can extract text from PDFs in a wide range of languages and character sets, including:
+- **Language-agnostic text extraction using PyMuPDF**  
+  PyMuPDF can extract text from PDFs in a wide range of languages and character sets, including:
 
-English
-Hindi
-Chinese
-Arabic
-Tamil
-and many more....
+  - **English**
+  - **Hindi**
+  - **Chinese**
+  - **Arabic**
+  - **Tamil**
+  - **And many more...**
 
----
 
 ##  Components & Their Roles
 
