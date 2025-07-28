@@ -37,36 +37,42 @@ Connecting-The-Dots-Round-1A/
 
 ---
 
-##  Installation
+## ❗❗Execution
 
+1. Clone the repository using **Clone Command** in the parent folder. You’ll get a new folder named after the repository.
+
+2. Now, move into the child folder with the help of **Move Command**
+
+3. Build the Docker image by running the provided **Build Command** in that folder (it uses the Dockerfile in the project root).
+
+4. To run the container, we must change the directory to the parent folder with help of **Change Command**
+
+4. Run the container with the supplied **Run Command**, which mounts your local input folder into the container and mounts the output/repoidentifier folder into container to get the output folder locally in host machine.
+
+### Clone Command
 ```bash
-# Clone the repo
 git clone https://github.com/oitashg/Connecting-The-Dots-Round-1A.git
-cd Connecting-The-Dots-Round-1A/
-
 ```
 
----
+### Move Command
+```bash
+cd Connecting-The-Dots-Round-1A/
+```
 
-##  Dockerized Execution (As per instruction given)
-
-### 1. Build Docker Image
-
+### Build Command
 ```bash
 docker build --platform linux/amd64 -t <reponame.someidentifier> .
 ```
 
-### 2. Run the Container (PowerShell-compatible example):
+### Change Command
+```bash
+cd ..
+```
 
+### Run Command
 ```bash
 docker run --rm -v $(pwd)/input:/app/input:ro -v $(pwd)/output/repoidentifier/:/app/output --network none <reponame.someidentifier>
 ```
-
-This mimics the exact evaluation setup:
-
-* `/app/input` is **read-only**
-* Output will be written to `/app/output`
-* No internet access (`--network none`)
 
 ---
 
@@ -113,6 +119,7 @@ This solution provides basic multilingual support through:
   - **Tamil**
   - **And many more...**
 
+---
 
 ##  Components & Their Roles
 
@@ -121,22 +128,12 @@ This solution provides basic multilingual support through:
 
 ---
 
-
----
-
-##  Validation Checklist
-
-* [x] PDF files read from `/app/input`
-* [x] JSON written to `/app/output` per PDF
-* [x] Headings are complete and grouped (not single words)
-* [x] Works fully offline, CPU-only
-* [x] Multilingual Support
-* [x] Works within 10 seconds for 50 pages (PDFs tested)
-* [x] Model size under 200MB
-
----
-
-
+## Constraints  
+ 
+* Execution time - ≤ 10 seconds for a 50-page PDF  
+* Network  No internet access allowed 
+* Model size  ≤ 200MB (if used)   
+* Runtime  Must run on CPU (amd64), your solution should run on the system with 8 CPUs and 16 GB RAM * configurations   
 
 ---
 
