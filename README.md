@@ -1,4 +1,5 @@
-# Adobe India Hackathon 2025 - Challenge 1A: PDF Heading Extraction
+# Adobe India Hackathon 2025 
+# Round 1A: PDF Heading Extraction
 
 ##  Overview
 
