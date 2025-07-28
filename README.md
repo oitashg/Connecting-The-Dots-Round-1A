@@ -41,8 +41,8 @@ Connecting-The-Dots-Round-1A/
 
 ```bash
 # Clone the repo
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/oitashg/Connecting-The-Dots-Round-1A.git
+cd Connecting-The-Dots-Round-1A/
 
 ```
 
@@ -56,18 +56,7 @@ cd <your-repo>
 docker build --platform linux/amd64 -t <reponame.someidentifier> .
 ```
 
-### 2. Prepare Input and Output Folders (for testing purpose)
-
-```bash
-# Create the folder structure on your local machine
-mkdir -p test_mount/input
-mkdir -p test_mount/output/my_repo_id
-
-# Copy test PDF(s) into input folder
-cp sample.pdf test_mount/input/
-```
-
-### 3. Run the Container (PowerShell-compatible example):
+### 2. Run the Container (PowerShell-compatible example):
 
 ```bash
 docker run --rm -v $(pwd)/input:/app/input:ro -v $(pwd)/output/repoidentifier/:/app/output --network none <reponame.someidentifier>
